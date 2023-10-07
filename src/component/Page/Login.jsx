@@ -1,8 +1,19 @@
 
+import { RiContactsLine } from "react-icons/ri";
+
 const Login = () => {
+   
+
+
+
     return (
-        <div>
-            <h3>This LogIn</h3>
+        <div className="flex">
+            <div>
+                <RiContactsLine></RiContactsLine>
+            </div>
+            <div>
+        <p>Sign Up</p>
+            </div>
         </div>
     );
 };

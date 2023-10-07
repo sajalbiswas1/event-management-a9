@@ -4,6 +4,7 @@ import ErrorCatch from "./component/ErrorCatch";
 import Home from "./component/Home/Home";
 import CardDetails from "./component/Page/CardDetails";
 import Login from "./component/Page/Login";
+import SignUp from "./component/Page/SignUp";
 
 const router = createBrowserRouter([
         {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
             {
               path:'/login',
               element:<Login></Login>
+            },
+            {
+              path:'/signUp',
+              element:<SignUp></SignUp>
             }
           ]
         },
