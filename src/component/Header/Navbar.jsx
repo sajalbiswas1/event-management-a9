@@ -17,7 +17,7 @@ const Navbar = () => {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <NavLink to={'/'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Home</p></NavLink>
                             <NavLink to={'/about'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">About</p></NavLink>
-                            <NavLink to={'/contact'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Contact Us</p></NavLink>
+                            <NavLink to={'/schedule'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Schedule</p></NavLink>
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-5xl text-[#fd5884]"> Y<span className='text-[#1F2937]'>oga</span></a>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <NavLink to={'/'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Home</p></NavLink>
                         <NavLink to={'/about'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">About</p></NavLink>
-                        <NavLink to={'/contact'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Contact Us</p></NavLink>
+                        <NavLink to={'/schedule'}><p className="text-xl font-medium mr-5 px-5 py-2 rounded-lg hover:bg-slate-100">Schedule</p></NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end">

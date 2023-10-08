@@ -5,7 +5,6 @@ import { GiAlienFire } from 'react-icons/gi';
 
 const SpecialTeam = () => {
     const [trainer,setTrainer]=useState([])
-    console.log(trainer)
     useEffect(()=>{
         fetch('/trainer.json')
         .then(res=>res.json())

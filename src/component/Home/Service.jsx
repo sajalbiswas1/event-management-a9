@@ -10,7 +10,7 @@ const Service = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <div className="bg-[#F2E9D2] pt-10">
+        <div className="bg-[#F2E9D2] pt-10 pb-10">
             <div className="w-10/12 m-auto">
                 <h3 className="text-5xl text-center font-bold mb-2"><span className="text-pink-500">Our</span> service</h3>
                 <hr className="w-2/5 m-auto border-t-4 border-black h-1 mt-5 text-black mb-14" />
