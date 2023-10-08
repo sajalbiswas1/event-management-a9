@@ -77,7 +77,7 @@ const Login = () => {
         <div className="w-1/2 m-auto border p-16 bg-[#FFF]">
             <h3 className="text-4xl font-semibold text-center mb-12">Login your account</h3>
             <hr />
-            <form className="px-6 mt-12 mb-7" onSubmit={handleLogin}>
+            <form className="px-6 mt-12 mb-2" onSubmit={handleLogin}>
                 <p className="text-xl font-semibold mb-4">Email address</p>
                 <input className="border w-full  text-base font-normal p-5 bg-[#F3F3F3]" type="email" required ref={emailRef} name="email" placeholder="Enter your email address" id="" /><br />
                 <p className="mt-6 text-xl font-semibold mb-4">Password</p>
@@ -91,8 +91,15 @@ const Login = () => {
                 <Link><p onClick={handleForget} className="text-base font-semibold text-left mb-3">Forgotten password? </p></Link>
                 <input className="bg-[#403F3F] text-white text-xl font-semibold p-5 w-full" type="submit" name="submit" value="Login " id="" />
             </form>
+            {
+                errorLogin && <p className="text-base font-semibold text-center mb-2 text-red-500">{errorLogin}</p>
+            }
+            {
+                success && <p className="text-base font-semibold text-center mb-2 text-green-400">{success}</p>
+            }
+            <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6"/></p>
             <div>
-            <div onClick={handleGoogleLogin} className='flex items-center hover:text-blue-700  mx-2 py-2 justify-center gap-3 hover:border-blue-700 rounded-md border-2 mb-4 border-black'>
+            <div onClick={handleGoogleLogin} className='flex items-center hover:text-blue-700 mt-5  mx-2 py-2 justify-center gap-3 hover:border-blue-700 rounded-md border-2 mb-4 border-black'>
                 <AiOutlineGoogle></AiOutlineGoogle>
                 <Link>LogIn with google</Link>
             </div>
@@ -101,12 +108,7 @@ const Login = () => {
                 <p>LogIn with github</p>
             </div>
             </div>
-            {
-                errorLogin && <p className="text-base font-semibold text-center mb-7 text-red-500">{errorLogin}</p>
-            }
-            {
-                success && <p className="text-base font-semibold text-center mb-7 text-green-400">{success}</p>
-            }
+            
             <p className="text-base font-semibold text-center">Do not Have An Account? <Link className="text-[#5b66e0]" to={'/signUp'}> Register</Link></p>
         </div>
     );

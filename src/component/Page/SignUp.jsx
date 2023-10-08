@@ -84,11 +84,10 @@ const SignUp = () => {
             </div>
             <input className="bg-[#403F3F] text-white text-xl font-semibold p-5 w-full" type="submit" name="submit" value="Register" id="" />
         </form>
-        <p>Or</p>
-        
         {
             errorRegister && <p className="text-base font-semibold text-center mb-7 text-red-500">{errorRegister}</p>
         }
+        <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6"/></p>
         <p className="text-base font-semibold text-center">Do not Have An Account? <Link className="text-[#546dd1]" to={'/login'}> Login</Link></p>
     </div>
     );
