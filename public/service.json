@@ -5,6 +5,11 @@
     "title_service": "Fitness Class",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -14,6 +19,11 @@
     "title_service": "Yoga class",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -23,6 +33,11 @@
     "title_service": "Weakly Food pack",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -32,6 +47,11 @@
     "title_service": "Yoga Dance",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -41,6 +61,11 @@
     "title_service": "Battle Popes Exercises",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   },
@@ -50,6 +75,11 @@
     "title_service": "Clean water",
     "category": "Health",
     "price": "$199.99",
+    "trainer":{
+      "name":"Alex hila",
+      "trainer_title":"She is a body trainer",
+      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+    },
     "short_description": "There are many things that can be done to ensure that all people have There are many things that",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
   }
