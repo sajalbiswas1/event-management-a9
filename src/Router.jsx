@@ -6,6 +6,7 @@ import CardDetails from "./component/Page/CardDetails";
 import Login from "./component/Page/Login";
 import SignUp from "./component/Page/SignUp";
 import PrivetRoute from "./component/PrivetRoute";
+import Schedule from "./component/Page/Schedule";
 
 const router = createBrowserRouter([
         {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
               path:'/signUp',
               element:<SignUp></SignUp>
             },
+            {
+              path:'/schedule',
+              element:<Schedule></Schedule>
+            }
           ]
         },
       ]);
