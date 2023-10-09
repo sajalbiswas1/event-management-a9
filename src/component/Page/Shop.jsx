@@ -10,7 +10,7 @@ const Shop = () => {
     },[])
     return (
         <div>
-            <div data-aos="zoom-in-down" className='bg-[#aa7841] pb-10'>
+            <div data-aos="fade-up" className='bg-[#aa7841] pb-10'>
                 <h3 className='text-white text-4xl font-bold text-center pt-10'>YOGA PRODUCT SHOPE </h3>
                 <h3 className='w-64 rounded-md mt-5 m-auto text-center text-lg font-bold text-[#aa7841] bg-white'>Yoga & mediation Product</h3>
             </div>

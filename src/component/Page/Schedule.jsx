@@ -9,7 +9,7 @@ const Schedule = () => {
                     <h3 className='w-64 rounded-md mt-5 m-auto text-center text-lg font-bold text-[#aa7841] bg-white'>Yoga & mediation Studio</h3>
                     </div>
                 </div>
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000" className='w-80 m-auto bg-opacity-20 bg-[#fbeaea] my-10'>
+                <div data-aos="flip-up" data-aos-easing="ease-out-cubic"data-aos-duration="2000" className='w-80 m-auto bg-opacity-20 bg-[#fbeaea] my-10'>
                     <div className='flex font-semibold justify-evenly py-3 items-center gap-10 text-[#fff]'>
                         <p>Sunday</p>
                         <p>07:00-11:00 AM<br />

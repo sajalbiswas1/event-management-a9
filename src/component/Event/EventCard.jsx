@@ -5,7 +5,7 @@ const EventCard = ({ event }) => {
     return (
 
         <div>
-            <div data-aos={`${event_on === 'false'?"zoom-in-right":"zoom-in-left"}`} data-aos-duration="2000" className={`${event_on === 'false'?'lg:flex lg:flex-row-reverse':'lg:flex'} gap-14 mb-14`}>
+            <div data-aos={`${event_on === 'false'?"fade-up":"fade-up"}`} data-aos-duration="2000" className={`${event_on === 'false'?'lg:flex lg:flex-row-reverse':'lg:flex'} gap-14 mb-14`}>
            <div className='lg:w-1/2'>
            <img src={image} alt="" />
            </div>

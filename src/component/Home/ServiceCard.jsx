@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const ServiceCard = ({ card }) => {
-    const { id, title_service, image, price, short_description,animation } = card
+    const { id, title_service, image, price, short_description } = card
 
     return (
         <div className='hover:ease-in-out'>
             <Link to={`/details/${id}`}>
-                <div data-aos={animation} data-aos-duration="2000" className="bg-[#ffffff] h-full group hover:shadow-2xl shadow-lg rounded-lg hover:duration-100 hover:delay-100  border group relative pb-2">
+                <div data-aos="fade-up" data-aos-duration="2000" className="bg-[#ffffff] h-full group hover:shadow-2xl shadow-lg rounded-lg hover:duration-100 hover:delay-100  border group relative pb-2">
                     <img className="w-full mb-5 rounded-t-lg" src={image} alt="" />
                     <div className="relative">
                         <div className="w-3/5 group-hover:w-4/5 group-hover:duration-1000 group-hover:delay-500 h-10 
