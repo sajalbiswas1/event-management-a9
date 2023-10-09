@@ -41,6 +41,7 @@ const Login = () => {
     const handleGoogleLogin = () => {
         googleLogin()
             .then(result => {
+                notify()
                 console.log(result)
                 //go to home
                 navigate(location?.state ? location.state : '/')
@@ -48,6 +49,7 @@ const Login = () => {
             })
             .catch(error => {
                 //set error
+                notify2()
                 setErrorLogin(error.message)
                 console.log(error)
             })
@@ -91,8 +93,8 @@ const Login = () => {
 
 
     return (
-        <div className="w-2/5 m-auto border rounded-xl p-16 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
-            <h3 className="text-4xl font-semibold text-center mb-4">SignIn</h3>
+        <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-10/12 m-auto border rounded-xl md:p-16 p-5 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
+            <h3 className="md:text-4xl text-2xl font-semibold text-center mb-4">SignIn</h3>
             <p className="w-6 m-auto rounded-full flex justify-center mb-3 text-3xl  "><RiContactsLine className="w-5"></RiContactsLine></p>
             <hr />
             <form className="px-6 mt-4 mb-2" onSubmit={handleLogin}>
@@ -115,8 +117,8 @@ const Login = () => {
             {
                 success && <p className="text-base font-semibold text-center mb-2 text-green-400">{success}</p>
             }
-            <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6" /></p>
-            <div className="w-6/12 m-auto">
+            <div className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> <span>Or</span> <hr className="border-black w-1/6" /></div>
+            <div className="md:w-8/12 m-auto">
                 <div onClick={handleGoogleLogin} className='flex rounded-3xl items-center hover:text-blue-700 mt-5  mx-2 py-2 justify-center gap-3 hover:border-blue-700 border-2 mb-4 border-black'>
                     <AiOutlineGoogle></AiOutlineGoogle>
                     <Link>LogIn with google</Link>

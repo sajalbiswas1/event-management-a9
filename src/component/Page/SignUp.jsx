@@ -90,8 +90,8 @@ const SignUp = () => {
     }
 
     return (
-        <div className="w-2/5 m-auto border p-16 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
-            <h3 className="text-4xl font-semibold text-center mb-4">Sign Up</h3>
+        <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-10/12 m-auto border md:p-16 p-5 bg-gradient-to-r rounded-xl from-[#ffe5e5]  to-[#fdfdde]">
+            <h3 className="md:text-4xl text-2xl font-semibold text-center mb-4">Sign Up</h3>
             <p className="w-6 m-auto rounded-full flex justify-center mb-2 text-3xl  "><RiContactsLine className="w-5"></RiContactsLine></p>
             <hr />
             <form onSubmit={handleSubmit} className="px-6 mt-4 mb-4">
@@ -118,7 +118,7 @@ const SignUp = () => {
             {
                 errorRegister && <p className="text-base font-semibold text-center mb-7 text-red-500">{errorRegister}</p>
             }
-            <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6" /></p>
+            <div className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> <span>Or</span> <hr className="border-black w-1/6" /></div>
             <p className="text-base font-semibold text-center">Do not Have An Account? <Link className="text-[#546dd1]" to={'/login'}> Login</Link></p>
         </div>
     );

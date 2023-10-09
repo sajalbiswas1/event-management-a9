@@ -10,11 +10,11 @@ const Service = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <div className="bg-[#F2E9D2] pt-10 pb-10">
+        <div className="bg-[#F2E9D2] md:pt-10 pt-2 md:pb-10 pb-4">
             <div className="w-10/12 m-auto">
-                <h3 className="text-5xl text-center font-bold mb-2"><span className="text-pink-500">Our</span> service</h3>
-                <hr className="w-2/5 m-auto border-t-4 border-black h-1 mt-5 text-black mb-14" />
-                <div className="grid gap-10 grid-cols-3 mt-3">
+                <h3 className="md:text-5xl text-2xl text-center font-bold mb-2"><span className="text-pink-500">Our</span> service</h3>
+                <hr className="w-2/5 m-auto md:border-t-4 border-black md:h-1 md:mt-5 text-black md:mb-14 mb-5" />
+                <div className="grid gap-10 lg:grid-cols-3 md:grid-cols-2 mt-3">
                     {
                         data.map(card => <ServiceCard key={card.id} card={card}></ServiceCard>)
                     }

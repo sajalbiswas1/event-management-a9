@@ -16,7 +16,7 @@ const Shop = () => {
             </div>
             <div className="bg-[#F2E9D2]">
             <div className="w-10/12 m-auto pt-10 pb-10">            
-            <div className="grid grid-cols-4 m-auto gap-8">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 m-auto gap-8">
                 {
                     trainer.map(card => <ShopCard key={card.id} card={card}></ShopCard>)
                 }

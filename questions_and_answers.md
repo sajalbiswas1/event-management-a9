@@ -18,7 +18,7 @@ console.log(greetign);
 <details><summary><b>Answer A</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A ?
 
 <i>declared a variable getting.not assign value . assigns empty object. then output empty object</i>
 
@@ -69,7 +69,7 @@ console.log(food);
 <details><summary><b>Answer A</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A ?
 
 <i>info object does not affect the original food array. Arrays and objects in JavaScript are reference types, but in this case, you are only modifying a property of the info object, not the food array itself. So, when you log the food array at the end, it remains unchanged:</i>
 
@@ -94,7 +94,7 @@ console.log(sayHi());
 <details><summary><b>Answer B</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B ?
 
 <i>I have defined it to take one parameter called name. However, when I call the sayHi function, I do not provide any argument, so name is undefined inside the function.</i>
 
@@ -119,10 +119,10 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer C</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C ?
 
 <i>num = 0, the condition if (num) is false, so no change is made to count. num = 1, the condition if (num) is true, so count is incremented by 1. array number 1,2,3 is true count incremented 3 time .then ans is 3</i>
 
