@@ -6,7 +6,7 @@ Click here for my live website: [https://simple-firebase-f6b0f.web.app/](https:/
 
 # least five features
  - **Firebase** 
-    - firebase authentication, hosting more feature is very good.Firebase offers a comprehensive suite of services, including real-time databases, user authentication, hosting, and cloud functions, streamlining app development. It enhances user experience with scalability, analytics, and messaging. Firebase leverages Google's robust infrastructure, simplifying backend tasks and ensuring high performance and security for applications.
+    - firebase authentication, hosting more feature is very good. Firebase offers a comprehensive suite of services, including real-time databases, user authentication, hosting, and cloud functions, streamlining app development. It enhances user experience with scalability, analytics, and messaging. Firebase leverages Google's robust infrastructure, simplifying backend tasks and ensuring high performance and security for applications.
  - **AOS feature**
     - React AOS (Animate On Scroll) is a library that enhances user experience by adding smooth animations to web pages as users scroll. It improves engagement, visual appeal, and storytelling on websites, making them more dynamic and interactive, ultimately helping to capture and retain user attention.
  - **React PrivetRoute**
