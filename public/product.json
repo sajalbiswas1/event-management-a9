@@ -1,0 +1,26 @@
+[
+    {
+        "id": "301",
+        "name":"Yoga mat",
+        "image":"https://i.ibb.co/8g6qTf7/Untitled-design-17.png",
+        "price": "$25.00"
+    },
+    {
+        "id": "302",
+        "name":"Yoga Wheel",
+        "image":"https://i.ibb.co/SwGzgKw/Untitled-design-18.png",
+        "price": "$25.00"
+    },
+    {
+        "id": "303",
+        "name":"Yoga Srrap",
+        "image":"https://i.ibb.co/yY8TYMT/best-yoga-blocks-straps-amazon.webp",
+        "price": "$25.00"
+    },
+    {
+        "id": "304",
+        "name":"Yoga mat",
+        "image":"https://i.ibb.co/8g6qTf7/Untitled-design-17.png",
+        "price": "$25.00"
+    }
+]

@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
+    "image": "https://i.ibb.co/ydNW1S1/card1.png",
     "title_service": "Fitness Class",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$25.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
       "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": "Ultimate Fitness, Elevate Your Strength, Cardio, and Flexibility for a Healthier, Happier You in Just 45 Minutes!",
+    "description": "Participating in fitness classes offers a wide array of benefits that can positively impact your physical and mental well-being. These classes encompass a variety of activities, from high-intensity interval training to yoga and dance, catering to different fitness levels and preferences.First and foremost, fitness classes provide structure and accountability. Knowing that you've committed to a specific class at a certain time can be a powerful motivator, helping you stick to your fitness goals. Additionally, the guidance of a trained instructor ensures that you perform exercises correctly, reducing the risk of injury.Variety is another advantage of fitness classes. You can choose from an array of classes to keep your workouts fresh and prevent boredom. This variety also targets different muscle groups, promoting overall strength and balance."
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
+    "image": "https://i.ibb.co/tP1qySJ/card2.png",
     "title_service": "Yoga class",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$25.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
-      "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
+      "trainer_description":""
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": "Nourishing Your Essence – Find Balance, Peace, and Strength Through Ancient Practices and Modern Wisdom.",
+    "description": "yoga is a centuries-old practice that offers a multitude of physical, mental, and emotional benefits. Joining a yoga class can be an excellent way to experience these advantages while benefiting from expert guidance and a supportive community.One of the primary benefits of yoga is increased flexibility and improved range of motion. Through a series of poses and stretches, yoga helps to lengthen and strengthen muscles, making daily movements easier and reducing the risk of injury. Enhanced flexibility can also alleviate aches and pains, particularly in the neck, back, and joints."
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
-    "title_service": "Weakly Food pack",
+    "image": "https://i.ibb.co/rw067nN/Untitled-design-7.png",
+    "title_service": "Health care",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$20.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
       "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": "A Path to Wellness – Cultivating Health, Mindfulness, and Harmony Through Ancient Practices for a Holistic Approach to Healthcare",
+    "description": "Stress Reduction: Yoga incorporates relaxation techniques, deep breathing, and meditation, which are highly effective in reducing stress. Lowering stress levels can have a positive impact on overall health by reducing the risk of stress-related illnesses.Improved Flexibility and Mobility: Regular yoga practice enhances flexibility by stretching and lengthening muscles and ligaments. This improved range of motion can alleviate joint pain and prevent injuries.Strength and Balance: Many yoga poses require the engagement of various muscle groups, promoting strength and balance. This can aid in preventing falls, especially among older adults."
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
+    "image": "https://i.ibb.co/dPpmhgq/Untitled-design-4.png",
     "title_service": "Yoga Dance",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$35.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
       "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": "Elevate Your Spirit, Energize Your Body  A Vibrant Blend of Dance and Yoga for Joyful Fitness and Well-being.",
+    "description": "Physically, yoga dance improves flexibility, strength, and balance through fluid and graceful motions. It can provide a cardiovascular workout, supporting heart health and overall fitness.Mentally, it encourages mindfulness and deep breathing, reducing stress and promoting relaxation. This unique fusion enhances the mind-body connection, fostering self-awareness and self-expression.Dancing in a yoga context also allows for creativity and self-expression, uplifting mood and promoting emotional well-being. Whether you're an experienced yogi or a dance enthusiast, yoga dance provides a holistic approach to health and wellness, combining the best of both worlds in a joyful and harmonious practice."
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
-    "title_service": "Battle Popes Exercises",
+    "image": "https://i.ibb.co/mG9dnQZ/Untitled-design-5.png",
+    "title_service": "Battle Exercises",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$40.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
       "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": " Ignite Strength and Resilience – Empower Body and Mind Through Dynamic Movements and Mindful Challenges for Total Fitness.",
+    "description": "Strength and Endurance: Yoga battle exercises incorporate challenging yoga poses while adding elements of intensity, such as fast-paced sequences or resistance training. This helps build muscular strength and endurance.Cardiovascular Fitness: The incorporation of HIIT intervals elevates the heart rate, making it an effective cardiovascular workout. It enhances lung capacity and circulation, promoting overall heart health.Flexibility and Balance: Traditional yoga postures are integrated into the routine, improving flexibility and balance while engaging various muscle groups.Stress Reduction: Like traditional yoga, battle yoga emphasizes mindful breathing and relaxation techniques, helping to reduce stress and improve mental well-being."
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/YZPbz47/Food.png",
-    "title_service": "Clean water",
+    "image": "https://i.ibb.co/bmgzM0W/Untitled-design-6.png",
+    "title_service": "Yoga basic",
     "category": "Health",
-    "price": "$199.99",
+    "price": "$30.00",
     "trainer":{
       "name":"Alex hila",
       "trainer_title":"She is a body trainer",
       "trainer_description":"There are many things that can be done to ensure that all people have There are many things that"
     },
-    "short_description": "There are many things that can be done to ensure that all people have There are many things that",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+    "short_description": "Foundation of Wellness – Discover the Essential Poses, Breathing Techniques, and Mindfulness Practices for a Balanced and Healthy Life",
+    "description": "In basic yoga, practitioners typically start with simple postures, often referred to as asanas, which involve stretching and holding various body positions to improve flexibility and strength. These postures are combined with controlled breathing, known as pranayama, to enhance relaxation and concentration.The practice encourages mindfulness and self-awareness, helping individuals connect with their inner selves and reduce stress. It can improve posture, balance, and coordination while relieving tension and promoting relaxation."
   }
 ]

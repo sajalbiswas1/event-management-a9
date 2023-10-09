@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 const EventCard = ({ event }) => {
     const { title, image, paragraph, paragraph2,event_on } = event
-    console.log(event_on)
     return (
 
         <div>

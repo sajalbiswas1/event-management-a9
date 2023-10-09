@@ -7,7 +7,7 @@ const ServiceCard = ({ card }) => {
         <div className='hover:ease-in-out'>
             <Link to={`/details/${id}`}>
             <div className="bg-[#ffffff] group hover:shadow-2xl shadow-lg rounded-lg hover:duration-100 hover:delay-100  border group relative pb-2">
-                <img className="w-full mb-5" src={image} alt="" />
+                <img className="w-full mb-5 rounded-t-lg" src={image} alt="" />
                 <div className="relative">
                     <div className="w-3/5 group-hover:w-4/5 group-hover:duration-1000 group-hover:delay-500 h-10 
   border-l-[50px] border-l-[#fd5884]

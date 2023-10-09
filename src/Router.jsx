@@ -7,6 +7,7 @@ import Login from "./component/Page/Login";
 import SignUp from "./component/Page/SignUp";
 import PrivetRoute from "./component/PrivetRoute";
 import Schedule from "./component/Page/Schedule";
+import Shop from "./component/Page/Shop";
 
 const router = createBrowserRouter([
         {
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
             },
             {
               path:'/schedule',
-              element:<Schedule></Schedule>
+              element:<PrivetRoute><Schedule></Schedule></PrivetRoute>
+            },
+            {
+              path:'/shop',
+              element:<PrivetRoute><Shop></Shop></PrivetRoute>
             }
           ]
         },

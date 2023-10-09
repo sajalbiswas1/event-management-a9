@@ -2,12 +2,17 @@
 import { useContext, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BsFillEyeFill, BsFillEyeSlashFill } from 'react-icons/bs';
+import { RiContactsLine } from 'react-icons/ri';
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { AiOutlineGithub, AiOutlineGoogle } from "react-icons/ai";
 
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Login = () => {
 
-    const { userLogin, changePassword,googleLogin } = useContext(AuthContext);
+    const { userLogin, changePassword, googleLogin } = useContext(AuthContext);
     const [show, setShow] = useState(false);
     const [errorLogin, setErrorLogin] = useState('');
     const [success, setSuccess] = useState('');
@@ -35,19 +40,29 @@ const Login = () => {
     //login with google
     const handleGoogleLogin = () => {
         googleLogin()
-        .then(result => {
-            console.log(result)
-            //go to home
-            navigate(location?.state ? location.state : '/')
+            .then(result => {
+                console.log(result)
+                //go to home
+                navigate(location?.state ? location.state : '/')
 
-        })
-        .catch(error => {
-            //set error
-            setErrorLogin(error.message)
-            console.log(error)
-        })
-
+            })
+            .catch(error => {
+                //set error
+                setErrorLogin(error.message)
+                console.log(error)
+            })
     }
+
+
+    //toast
+    const notify = () => toast.success("LogIn Successfully!",{
+        position: toast.POSITION.TOP_CENTER
+      });
+    const notify2 = () => toast.error("email or password wrong",{
+        position: toast.POSITION.TOP_CENTER
+      });
+    
+
 
     const handleLogin = (e) => {
         e.preventDefault()
@@ -59,13 +74,15 @@ const Login = () => {
         userLogin(email, password)
             .then(result => {
                 result
+                notify()
                 //go to home
                 navigate(location?.state ? location.state : '/')
 
             })
             .catch(error => {
                 //set error
-                setErrorLogin(error.message)
+                setErrorLogin('email or password do not match')
+                notify2()
                 console.log(error)
             })
 
@@ -74,22 +91,23 @@ const Login = () => {
 
 
     return (
-        <div className="w-1/2 m-auto border p-16 bg-[#FFF]">
-            <h3 className="text-4xl font-semibold text-center mb-12">Login your account</h3>
+        <div className="w-2/5 m-auto border rounded-xl p-16 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
+            <h3 className="text-4xl font-semibold text-center mb-4">SignIn</h3>
+            <p className="w-6 m-auto rounded-full flex justify-center mb-3 text-3xl  "><RiContactsLine className="w-5"></RiContactsLine></p>
             <hr />
-            <form className="px-6 mt-12 mb-2" onSubmit={handleLogin}>
-                <p className="text-xl font-semibold mb-4">Email address</p>
-                <input className="border w-full  text-base font-normal p-5 bg-[#F3F3F3]" type="email" required ref={emailRef} name="email" placeholder="Enter your email address" id="" /><br />
-                <p className="mt-6 text-xl font-semibold mb-4">Password</p>
+            <form className="px-6 mt-4 mb-2" onSubmit={handleLogin}>
+                <p className="text-lg font-medium mb-2">Email address</p>
+                <input className="border w-full rounded-3xl text-base font-normal px-5 py-2 bg-[#F3F3F3]" type="email" required ref={emailRef} name="email" placeholder="Enter your email address" id="" /><br />
+                <p className="mt-3  text-lg font-medium mb-2">Password</p>
                 <div className="relative">
                     {
-                        show ? <span onClick={() => setShow(!show)} className="absolute text-xl right-4 bottom-1/2"><BsFillEyeFill></BsFillEyeFill> </span>
-                            : <span onClick={() => setShow(!show)} className="absolute text-xl right-4 bottom-1/2"><BsFillEyeSlashFill></BsFillEyeSlashFill> </span>
+                        show ? <span onClick={() => setShow(!show)} className="absolute text-xl right-4 bottom-1/3"><BsFillEyeFill></BsFillEyeFill> </span>
+                            : <span onClick={() => setShow(!show)} className="absolute text-xl right-4 bottom-1/3"><BsFillEyeSlashFill></BsFillEyeSlashFill> </span>
                     }
-                    <input className=" border w-full text-base font-normal p-5 mb-7 bg-[#F3F3F3]" type={show ? 'text' : 'password'} name="password" placeholder="Enter your password" required id="10004" /><br />
+                    <input className=" border w-full text-base rounded-3xl font-normal px-5 py-2 bg-[#F3F3F3]" type={show ? 'text' : 'password'} name="password" placeholder="Enter your password" required id="10004" /><br />
                 </div>
-                <Link><p onClick={handleForget} className="text-base font-semibold text-left mb-3">Forgotten password? </p></Link>
-                <input className="bg-[#403F3F] text-white text-xl font-semibold p-5 w-full" type="submit" name="submit" value="Login " id="" />
+                <Link><p onClick={handleForget} className="hidden text-sm font-normal text-left mt-2 mb-2">Forgotten password? </p></Link>
+                <input className=" text-white mt-5 rounded-3xl text-xl font-semibold px-5 py-2 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" type="submit" name="submit" value="Login " id="" />
             </form>
             {
                 errorLogin && <p className="text-base font-semibold text-center mb-2 text-red-500">{errorLogin}</p>
@@ -97,19 +115,20 @@ const Login = () => {
             {
                 success && <p className="text-base font-semibold text-center mb-2 text-green-400">{success}</p>
             }
-            <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6"/></p>
-            <div>
-            <div onClick={handleGoogleLogin} className='flex items-center hover:text-blue-700 mt-5  mx-2 py-2 justify-center gap-3 hover:border-blue-700 rounded-md border-2 mb-4 border-black'>
-                <AiOutlineGoogle></AiOutlineGoogle>
-                <Link>LogIn with google</Link>
+            <p className="flex items-center justify-center mx-6 mt-4 gap-2 text-lg font-bold"> <hr className="border-black w-1/6" /> Or <hr className="border-black w-1/6" /></p>
+            <div className="w-6/12 m-auto">
+                <div onClick={handleGoogleLogin} className='flex rounded-3xl items-center hover:text-blue-700 mt-5  mx-2 py-2 justify-center gap-3 hover:border-blue-700 border-2 mb-4 border-black'>
+                    <AiOutlineGoogle></AiOutlineGoogle>
+                    <Link>LogIn with google</Link>
+                </div>
+                <div className='flex items-center hover:text-blue-700  mx-2 py-2 justify-center gap-3 hover:border-blue-700 rounded-3xl border-2 mb-4 border-black'>
+                    <AiOutlineGithub></AiOutlineGithub>
+                    <p>LogIn with github</p>
+                </div>
             </div>
-            <div className='flex items-center hover:text-blue-700  mx-2 py-2 justify-center gap-3 hover:border-blue-700 rounded-md border-2 mb-4 border-black'>
-                <AiOutlineGithub></AiOutlineGithub>
-                <p>LogIn with github</p>
-            </div>
-            </div>
-            
+
             <p className="text-base font-semibold text-center">Do not Have An Account? <Link className="text-[#5b66e0]" to={'/signUp'}> Register</Link></p>
+            
         </div>
     );
 };
