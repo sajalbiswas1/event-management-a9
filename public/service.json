@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "animation":"fade-right",
     "image": "https://i.ibb.co/ydNW1S1/card1.png",
     "title_service": "Fitness Class",
     "category": "Health",
@@ -15,6 +16,7 @@
   },
   {
     "id": 2,
+    "animation":"fade-up",
     "image": "https://i.ibb.co/tP1qySJ/card2.png",
     "title_service": "Yoga class",
     "category": "Health",
@@ -29,6 +31,7 @@
   },
   {
     "id": 3,
+    "animation":"fade-left",
     "image": "https://i.ibb.co/rw067nN/Untitled-design-7.png",
     "title_service": "Health care",
     "category": "Health",
@@ -43,6 +46,7 @@
   },
   {
     "id": 4,
+    "animation":"fade-right",
     "image": "https://i.ibb.co/dPpmhgq/Untitled-design-4.png",
     "title_service": "Yoga Dance",
     "category": "Health",
@@ -57,6 +61,7 @@
   },
   {
     "id": 5,
+    "animation":"fade-up",
     "image": "https://i.ibb.co/mG9dnQZ/Untitled-design-5.png",
     "title_service": "Battle Exercises",
     "category": "Health",
@@ -71,6 +76,7 @@
   },
   {
     "id": 6,
+    "animation":"fade-left",
     "image": "https://i.ibb.co/bmgzM0W/Untitled-design-6.png",
     "title_service": "Yoga basic",
     "category": "Health",

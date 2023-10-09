@@ -90,7 +90,7 @@ const SignUp = () => {
     }
 
     return (
-        <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-10/12 m-auto border md:p-16 p-5 bg-gradient-to-r rounded-xl from-[#ffe5e5]  to-[#fdfdde]">
+        <div data-aos="fade-up" className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-10/12 m-auto border md:p-16 p-5 bg-gradient-to-r rounded-xl from-[#ffe5e5]  to-[#fdfdde]">
             <h3 className="md:text-4xl text-2xl font-semibold text-center mb-4">Sign Up</h3>
             <p className="w-6 m-auto rounded-full flex justify-center mb-2 text-3xl  "><RiContactsLine className="w-5"></RiContactsLine></p>
             <hr />

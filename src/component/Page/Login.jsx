@@ -6,7 +6,7 @@ import { RiContactsLine } from 'react-icons/ri';
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { AiOutlineGithub, AiOutlineGoogle } from "react-icons/ai";
 
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -93,7 +93,7 @@ const Login = () => {
 
 
     return (
-        <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-10/12 m-auto border rounded-xl md:p-16 p-5 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
+        <div data-aos="fade-up" className="lg:w-2/5 md:w-3/5 sm:w-4/5  m-auto border rounded-xl md:p-16 p-5 bg-gradient-to-r from-[#ffe5e5]  to-[#fdfdde]">
             <h3 className="md:text-4xl text-2xl font-semibold text-center mb-4">SignIn</h3>
             <p className="w-6 m-auto rounded-full flex justify-center mb-3 text-3xl  "><RiContactsLine className="w-5"></RiContactsLine></p>
             <hr />
@@ -130,7 +130,7 @@ const Login = () => {
             </div>
 
             <p className="text-base font-semibold text-center">Do not Have An Account? <Link className="text-[#5b66e0]" to={'/signUp'}> Register</Link></p>
-            
+            <ToastContainer />
         </div>
     );
 };

@@ -12,7 +12,7 @@ const SpecialTeam = () => {
     },[])
     return (
         <div className="bg-[#F2E9D2]">
-            <div className="w-10/12 m-auto pt-10 pb-10">
+            <div data-aos="fade-down" data-aos-duration="2000" className="w-10/12 m-auto pt-10 pb-10">
             <h3 className="md:text-5xl text-2xl text-center font-bold mb-2"> Our <span className="text-pink-500">Special Trainer</span></h3>
             <div className="flex justify-center gap-3">
             <hr className="w-3/12 border-t-4 border-black h-1 mt-5 text-black mb-6" />

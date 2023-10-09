@@ -10,11 +10,11 @@ const Shop = () => {
     },[])
     return (
         <div>
-            <div className='bg-[#aa7841] pb-10'>
+            <div data-aos="zoom-in-down" className='bg-[#aa7841] pb-10'>
                 <h3 className='text-white text-4xl font-bold text-center pt-10'>YOGA PRODUCT SHOPE </h3>
                 <h3 className='w-64 rounded-md mt-5 m-auto text-center text-lg font-bold text-[#aa7841] bg-white'>Yoga & mediation Product</h3>
             </div>
-            <div className="bg-[#F2E9D2]">
+            <div data-aos="fade-up" data-aos-duration="2000" className="bg-[#F2E9D2]">
             <div className="w-10/12 m-auto pt-10 pb-10">            
             <div className="grid lg:grid-cols-4 md:grid-cols-2 m-auto gap-8">
                 {

@@ -2,10 +2,12 @@ import { BiLogoFacebook, BiLogoInstagram, BiLogoTwitter } from 'react-icons/bi';
 import PropTypes from 'prop-types';
 
 
+
 const SpecialTeamCard = ({ card }) => {
     const { name, trainer_title, trainer_description, image } = card
+
     return (
-        <div className='border bg-white rounded-lg hover:drop-shadow-2xl'>
+        <div data-aos="fade-left" data-aos-duration="2000" className='border bg-white rounded-lg hover:drop-shadow-2xl'>
             <div className="bg-[#bde4ca] rounded-t-lg text-center">
             <h3 className="text-2xl font-bold pt-2 mb-1">{name}</h3>
             <h5 className='mb-2 font-medium'>{trainer_title}</h5>
