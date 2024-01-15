@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import { CiStopwatch } from "react-icons/ci";
 import { Link, useLoaderData, useParams } from "react-router-dom";
@@ -6,6 +7,14 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 const CardDetails = () => {
     const data = useLoaderData();
     const { id } = useParams();
+
+
+    useEffect(() => {
+        // Scroll to the top of the page when the component is entered
+        window.scrollTo(0, 0);
+      }, []);
+
+
 
     const result = data.find(card => card.id == id)
     console.log(data)
